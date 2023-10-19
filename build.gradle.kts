@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("me.champeau.jmh") version "0.7.1"
-    kotlin("jvm") version "1.9.10"
+    kotlin("jvm") version "1.9.20-RC"
 }
 
 group = "com.ruislan.korderbook"
@@ -12,12 +12,12 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 jmh {
