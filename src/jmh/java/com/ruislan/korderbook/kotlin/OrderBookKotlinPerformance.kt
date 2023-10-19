@@ -25,7 +25,7 @@ open class OrderBookKotlinPerformance {
         orderBook?.close()
     }
 
-    @Benchmark
+//    @Benchmark
     fun placeLimitOrders() {
         lock!!.withLock { orderBook!!.place(nextRandomLimitOrder()) }
     }

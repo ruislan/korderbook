@@ -28,7 +28,7 @@ public class OrderBookJavaPerformance {
         orderBook.close();
     }
 
-    @Benchmark
+//    @Benchmark
     public void placeLimitOrders() {
         lock.lock();
         try {
