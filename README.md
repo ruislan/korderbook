@@ -3,7 +3,7 @@
 A simple order match engine in Java and Kotlin
 
 * JDK: 21
-* Kotlin: 1.9.20-RC
+* Kotlin: 1.9.20
 * Gradle: 8.4
 
 ## Run Locally

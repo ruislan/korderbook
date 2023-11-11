@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("me.champeau.jmh") version "0.7.1"
-    kotlin("jvm") version "1.9.20-RC"
+    kotlin("jvm") version "1.9.20"
 }
 
 group = "com.ruislan.korderbook"
@@ -23,7 +23,7 @@ kotlin {
 jmh {
     warmupIterations = 1
     fork = 1
-    threads = 200
+    threads = 1
 }
 
 dependencies {
